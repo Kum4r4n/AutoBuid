@@ -1,0 +1,5 @@
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\appsettings.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.AssemblyInfoInputs.cache
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.AssemblyInfo.cs
