@@ -1,5 +1,15 @@
 D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\appsettings.json
 D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\azureautobuild.deps.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\azureautobuild.runtimeconfig.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\azureautobuild.runtimeconfig.dev.json
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\azureautobuild.dll
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\bin\Debug\netcoreapp2.2\azureautobuild.pdb
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.RazorAssemblyInfo.cache
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.RazorAssemblyInfo.cs
 D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.AssemblyInfoInputs.cache
 D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.AssemblyInfo.cs
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.RazorTargetAssemblyInfo.cache
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.dll
+D:\NewAzureBuid\azureautobuildsl\azureautobuild\obj\Debug\netcoreapp2.2\azureautobuild.pdb

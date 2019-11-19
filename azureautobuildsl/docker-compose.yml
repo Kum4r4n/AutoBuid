@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  azureautobuild:
+    image: ${DOCKER_REGISTRY-}azureautobuild
+    build:
+      context: .
+      dockerfile: azureautobuild/Dockerfile

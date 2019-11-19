@@ -1,0 +1,36 @@
+services:
+  azureautobuild:
+    build:
+      context: D:\NewAzureBuid\azureautobuildsl
+      dockerfile: azureautobuild/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: azureautobuild
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: azureautobuild:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/azureautobuild.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 7000
+      target: 80
+    tty: true
+    volumes:
+    - D:\NewAzureBuid\azureautobuildsl\azureautobuild:/app:rw
+    - C:\Users\User\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\User\.nuget\packages:/root/.nuget/packages:ro
+    - D:\NewAzureBuid\azureautobuildsl:/src:rw
+version: '3.4'

@@ -1,0 +1,16 @@
+services:
+  azureautobuild:
+    build:
+      context: D:\NewAzureBuid\azureautobuildsl
+      dockerfile: azureautobuild/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+    image: azureautobuild
+    ports:
+    - published: 7000
+      target: 80
+    volumes:
+    - C:\Users\User\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\User\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

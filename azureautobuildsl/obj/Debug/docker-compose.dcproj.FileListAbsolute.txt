@@ -1,0 +1,7 @@
+D:\NewAzureBuid\azureautobuildsl\bin\Debug\appsettings.Development.json
+D:\NewAzureBuid\azureautobuildsl\bin\Debug\appsettings.json
+D:\NewAzureBuid\azureautobuildsl\bin\Debug\Properties\launchSettings.json
+D:\NewAzureBuid\azureautobuildsl\bin\Debug\azureautobuild.dll
+D:\NewAzureBuid\azureautobuildsl\bin\Debug\azureautobuild.pdb
+D:\NewAzureBuid\azureautobuildsl\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\NewAzureBuid\azureautobuildsl\obj\Debug\docker-compose.dcproj.CopyComplete
