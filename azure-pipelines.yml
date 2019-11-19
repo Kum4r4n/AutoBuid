@@ -5,10 +5,6 @@
 
 trigger:
 - master
-task: DotNetCoreCLI@2
-inputs:
-    -command: 'build'
-    projects: 'azureautobuildsl/'
 
 pool:
   vmImage: 'ubuntu-latest'
