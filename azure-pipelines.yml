@@ -4,7 +4,11 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- master/azureautobuildsl
+- master
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'azureautobuildsl/'
 
 pool:
   vmImage: 'ubuntu-latest'
