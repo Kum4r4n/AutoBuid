@@ -8,7 +8,7 @@ trigger:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'azureautobuildsl/'
+    projects: 'azureautobuildsl'
 
 pool:
   vmImage: 'ubuntu-latest'
