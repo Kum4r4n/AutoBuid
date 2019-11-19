@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NewAzureBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj": {}
+    "D:\\gitHub\\AutoBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj": {}
   },
   "projects": {
-    "D:\\NewAzureBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj": {
+    "D:\\gitHub\\AutoBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NewAzureBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj",
+        "projectUniqueName": "D:\\gitHub\\AutoBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj",
         "projectName": "azureautobuild",
-        "projectPath": "D:\\NewAzureBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj",
+        "projectPath": "D:\\gitHub\\AutoBuid\\azureautobuildsl\\azureautobuild\\azureautobuild.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\NewAzureBuid\\azureautobuildsl\\azureautobuild\\obj\\",
+        "outputPath": "D:\\gitHub\\AutoBuid\\azureautobuildsl\\azureautobuild\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
